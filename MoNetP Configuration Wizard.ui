@@ -149,7 +149,7 @@ p, li { white-space: pre-wrap; }
       <x>20</x>
       <y>50</y>
       <width>271</width>
-      <height>251</height>
+      <height>261</height>
      </rect>
     </property>
     <property name="html">
@@ -159,34 +159,34 @@ p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Enter your allocated network address and subnet mask into the appropriate fields. This information can be found in the Annex K  or should be dictated by your communications supervisor.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;If you have already completed this step, you may skip to the next step by hitting next. Do not hit Deploy Configuration. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;If you have already completed this step, you may skip to the next step by hitting next. Do not hit Deploy Configuration button. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>100</y>
+      <x>390</x>
+      <y>60</y>
       <width>171</width>
-      <height>31</height>
+      <height>21</height>
      </rect>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_2">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>160</y>
+      <x>390</x>
+      <y>110</y>
       <width>171</width>
-      <height>31</height>
+      <height>21</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>80</y>
+      <x>420</x>
+      <y>40</y>
       <width>111</width>
       <height>20</height>
      </rect>
@@ -198,8 +198,8 @@ p, li { white-space: pre-wrap; }
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>140</y>
+      <x>430</x>
+      <y>90</y>
       <width>91</width>
       <height>20</height>
      </rect>
@@ -211,8 +211,8 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>230</y>
+      <x>400</x>
+      <y>280</y>
       <width>151</width>
       <height>23</height>
      </rect>
@@ -224,14 +224,60 @@ p, li { white-space: pre-wrap; }
    <widget class="QCheckBox" name="checkBox">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>200</y>
+      <x>410</x>
+      <y>250</y>
       <width>131</width>
       <height>21</height>
      </rect>
     </property>
     <property name="text">
      <string>Sim card installed</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>160</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>140</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Router Username</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>210</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>190</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Router Password</string>
     </property>
    </widget>
   </widget>
